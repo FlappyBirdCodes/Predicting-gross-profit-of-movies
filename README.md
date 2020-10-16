@@ -8,3 +8,9 @@ The data originally was not in integer format, which meant that I had to reshape
 "horror": 2
 "fantasy": 3}
 Therefore, the new list would return [0, 0, 1, 2, 3, 1, 3]. Now that the values are in integer format, the algorithm can now be trained properly.
+
+# Removing data
+Some of the columns were of little relevance and actually reduced the accuracy of the algorithm. For example, the column "writer" should be removed, as the writer of a film generally will not attract ticket sales. However, the column "star" should certainly be used as it will greatly improve the algorithm. The star of a movie, unlike the writer, can attract ticket sales and thereby improve the gross profit.
+
+# Conclusion
+The dataset was split into training and testing data at a 80/20 ratio respectively. The final accuracy of the algorithm is around 65%. 
