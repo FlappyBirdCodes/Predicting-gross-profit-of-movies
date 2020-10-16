@@ -1,2 +1,2 @@
 # Predicting-gross-profit-of-movies
-Linear regression model to predict gross profit of movies by using Python and Sikit-Learn
+This is another iinear regression algorithm that I wrote which predicts gross profit of movies using Python and the Sikit-Learn library.
